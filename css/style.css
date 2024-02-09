@@ -1,0 +1,82 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+/* general */
+:root {
+    --color-scondary: #ffffff;
+    --color-primary: #23272a;
+    --color-header-bg: #255ee9;
+    --color-section-bg: #f6f6f6;
+    --color-contrast: #aebbe7;
+}
+.debug {
+    border:1px solid red;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--color-scondary);
+    color: var(--color-primary);
+}
+/* header */
+header{
+    background-color: var(--color-header-bg);
+    color: var(--color-scondary);
+}
+#hero {
+    background-image: url('../img/jumbo.png');
+    min-height: 500px;
+    background-size: cover;
+}
+/* main */
+.section-bg {
+    background-color: var(--color-section-bg);
+}
+.left {
+    width: 60%;
+}
+.left img{
+    width: 100%;
+}
+.right {
+    width: 40%;
+    padding-top: 3%;
+}
+/* footer */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+footer.top {
+    border-bottom: 1px solid var(--color-contrast);
+}
+/* utility */
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 10px;
+}
+.small-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* flex utilities */
+.d-flex {
+    display: flex;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.space-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+    align-content: center;
+}
