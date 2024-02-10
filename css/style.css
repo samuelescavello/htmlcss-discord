@@ -47,6 +47,15 @@ header{
     width: 40%;
     padding-top: 3%;
 }
+.f-sizeh2{
+    font-size: 50px;
+}
+.f-sizep{
+    font-size: 20px;
+}
+.p-top{
+    padding-top: 10px;
+}
 /* footer */
 footer {
     background-color: var(--color-primary);
@@ -81,5 +90,5 @@ footer.top {
     align-content: center;
 }
 .align-self{
-    align-self: center;
+    
 }
