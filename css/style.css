@@ -80,3 +80,6 @@ footer.top {
     align-items: center;
     align-content: center;
 }
+.align-self{
+    align-self: center;
+}
