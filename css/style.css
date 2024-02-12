@@ -29,12 +29,14 @@ body {
     color: var(--color-primary);
 }
 
-.button {
+.button{
     padding: 10px;
     border-radius: 20px;
     color: var(--color-section-bg);
     border: none;
 }
+
+
 
 
 /* header */
@@ -45,7 +47,7 @@ header {
 
 #hero {
     background-image: url('../img/jumbo.png');
-    min-height: 600px;
+    min-height: 650px;
     background-size: cover;
     padding-top: 150px;
 }
@@ -57,7 +59,7 @@ header {
     text-decoration: none;
 }
 
-.bt-accedi {
+.bt-accedi{
     text-decoration: none;
     color: var(--color-primary);
     background-color: var(--color-section-bg);
@@ -79,7 +81,7 @@ h1 {
 
 }
 
-.bott-header-one {
+.bott-header-one{
     background-color: var(--color-section-bg);
     color: var(--color-primary);
     margin-right: 10px;
@@ -94,6 +96,7 @@ h1 {
 /* main */
 .section-bg {
     background-color: var(--color-section-bg);
+    ;
 }
 
 .left {
@@ -136,6 +139,19 @@ h1 {
     margin-bottom: 100px;
 }
 
+/* .wave-1hkxOo{
+    
+    
+} */
+
+.wave-gray{
+    color: var(--color-section-bg);
+    display: block;
+}
+
+.flip{
+   transform: scaleY(-1);
+}
 
 /* footer */
 footer {
@@ -220,6 +236,10 @@ span {
 /* flex utilities */
 .d-flex {
     display: flex;
+}
+
+.flex-wrap{
+flex-wrap: wrap;
 }
 
 .row-reverse {
